@@ -1,188 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script><link href="assets/css/style.css" rel="stylesheet" type="text/css" /><script src="assets/js/script.js"></script>
+<head>
+ <title>GoodNight</title>
+</head>
+<body>
+<div id="konten">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+<div id="fotoloveu"><div class="image"><img id="photo" src="https://i.postimg.cc/50wB9qT6/gdnight.gif" width="150px" height="150px"/></div><span id="sp2"></span><span id="sp3"></span></div>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<div id="ftawal"><div class="image">
+<img src="https://i.postimg.cc/nrXnY0xL/santuyy.gif" style="border-radius:10px" width="130px" height="130px"/></div></div>
+<div id='subkonten'>
+<p class='catatan sek' data-text='&#9829;'>
+<b>Hai... ツ</b><br>
+Tidur ya cantik :) <br>
+Ga boleh begadang terus <3 <br>
+Jaga kesehatanmu. <br><br>
+<i style="font-size:.80rem">Klik LOVE ini~</i>
+<label onClick="expl()">&#128157;</label>
+</p>
+</div>
+<div id="tombWA"><a class='button whatsapp' onClick='bukaWa();'><i class='icon whatsapp'></i>
+Kirim</a></div>
+</div>
 
-          <title>Rahmad</title>
-  <meta content="Rahmad Portfolio Website" name="description">
-  <meta content="Rahmad web developer portfolio" name="keywords">
-  <meta content='assets/img/D.jpg' property='og:image'/>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Rahmad</a>
-                </div>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Rahmad</span><br> Just Normal People</h1>
-
-                    <a href="https://api.whatsapp.com/send?phone=6283108164709&text=Halo Rahmad :)" class="button">Contact</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.youtube.com/watch?v=WgeItwiifYs" class="home__social-icon"><i class='bx bxl-youtube'></i></a>
-                    <a href="https://github.com/rahmad13" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">    
-                    <img src="assets/img/perfile.png" alt="">
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/bg.jpeg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Rahmad</h2>
-                        <p class="about__text">My name is Rahmad. I am eighteen years old and live in West Surabaya. I study in Vocational School in eleventh grade.
-                             I love going to school and playing with my schoolmates. I am in 12 TKR Class and Mrs. Eka is my home teacher. My favourite school subject is English and computer. I don’t like Biology or Physics.</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Here are some of my abilities in several fields on the internet</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Activity</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Rahmad</p>
-            <div class="footer__social">
-                <a href="https://facebook.com/rahmad" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://instagram.com/rahmad" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://twitter.com/-" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-            </div>
-            <p>&#169; 2021 copyright all right reserved</p>
-        </footer>
+<script> 
+function play() {
+var audio = new Audio('https://lv3000.likeadream.repl.co/musik.mp3');audio.play();} 
+var a=0,finish;
+finish = "Good Night!";
+var i=0,finish2;
+finish2 = "Selamat istirahat, jangan lupa lepas bhnya sebelum tidur. moga mimpi indah ya cantik :)";          
+function bukaWa(){window.location = "https://api.whatsapp.com/send?phone=6283108164709&text=Good Night too <3" + "%0ARahmad😘%0A" + "- " + dateTime;} 
+</script>
+ 
+<script type="text/javascript">            
+            var today = new Date();var date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear()+'.';var dateTime = date;
+            const swals = Swal.mixin({
+                allowOutsideClick: false,
+            });
+            async function mulai(){
+                await swals.fire('Halo Cantik <3');
+                setTimeout(showDiv, 900);play();                                      
+            }            
+            mulai();
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+async function expl(){setTimeout(duar,200);}
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+const body = document.querySelector("body");
+function createHeart() {
+    const heart = document.createElement("div");
+    heart.className = "fas fa-heart";
+    heart.style.left = (Math.random() * 90)+"vw";
+    heart.style.animationDuration = (Math.random()*3)+2+"s"
+    body.appendChild(heart);
+}
+setInterval(function name(params) {
+    var heartArr = document.querySelectorAll(".fa-heart")
+    if (heartArr.length > 100) {
+       heartArr[0].remove()
+    }
+},100)
+</script>
+</body>
 </html>
